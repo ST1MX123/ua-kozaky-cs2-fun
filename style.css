@@ -75,3 +75,27 @@ footer {
     background:#111;
     color:#aaa;
 }
+.skin-changer {
+    margin: 40px auto;
+    padding: 20px;
+    background: #1c1c1c;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.skin-changer select {
+    margin: 10px 0;
+    padding: 8px;
+    width: 80%;
+    border-radius: 6px;
+    border: none;
+}
+
+.skin-changer img {
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,255,0,0.3);
+}
+
