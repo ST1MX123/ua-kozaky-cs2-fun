@@ -7,7 +7,7 @@ const path = require('path');
 const app = express();
 
 // ⚠️ Встав свій Steam API ключ сюди
-const STEAM_API_KEY = 'ТУТ_ТВІЙ_STEAM_API_KEY';
+const STEAM_API_KEY = '73A28A895264D1BD677BF77BF8D570CA';
 
 // ⚠️ Встав свій домен
 const APP_URL = 'https://ua-kozaky-cs2-fun.onrender.com';
@@ -52,3 +52,4 @@ app.get('/api/profile', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
