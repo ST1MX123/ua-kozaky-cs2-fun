@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UA-KOZAKI CS2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+UA-KOZAKI-CS2.FUN
+</header>
+
+<section class="hero">
+    <h2>Ласкаво просимо на наш CS2 сервер! 🇺🇦</h2>
+    <p>Приєднуйся до козацької команди та грай онлайн!</p>
+
+    <div class="server-box">
+        <p><strong>IP:</strong> Невідомо</p>
+        <p><strong>Статус:</strong> <span id="serverStatus">Перевірка...</span></p>
+    </div>
+
+    <a class="steam-btn" href="#">Увійти через Steam</a>
+
+    <div id="profile" class="profile-box" style="display:none;">
+        <img id="avatar" width="80" style="border-radius:50%;">
+        <h3 id="nickname"></h3>
+    </div>
+
+    <a href="https://send.monobank.ua/jar/7GtGUjMe7n" class="donate" target="_blank">
+        💰 Підтримати сервер
+    </a>
+</section>
+
+<section class="top-players">
+    <h2>🏆 ТОП ГРАВЦІ</h2>
+    <ul id="topList"></ul>
+</section>
+
+<footer>
+&copy; UA-KOZAKI-CS2.FUN — Всі права захищені
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

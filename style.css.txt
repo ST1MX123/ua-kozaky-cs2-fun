@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f0f0f,#1a1a1a);
+    color:white;
+    text-align:center;
+}
+
+header {
+    background:#111;
+    padding:20px;
+    font-size:26px;
+    font-weight:bold;
+    color:#ff4444;
+    box-shadow:0 0 15px rgba(255,0,0,0.3);
+}
+
+.hero {
+    padding:50px 20px;
+}
+
+.server-box {
+    background:#1c1c1c;
+    padding:20px;
+    border-radius:12px;
+    margin:20px auto;
+    width:320px;
+    box-shadow:0 0 20px rgba(0,255,0,0.3);
+}
+
+.steam-btn, .donate {
+    display:inline-block;
+    margin:10px;
+    padding:14px 28px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.steam-btn:hover, .donate:hover {
+    background:limegreen;
+    transform:scale(1.05);
+}
+
+.profile-box {
+    margin-top:25px;
+}
+
+.top-players {
+    margin-top:50px;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+}
+
+li {
+    background:#1c1c1c;
+    margin:6px auto;
+    padding:12px;
+    width:270px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(255,255,255,0.1);
+}
+
+footer {
+    margin-top:40px;
+    padding:20px;
+    background:#111;
+    color:#aaa;
+}
